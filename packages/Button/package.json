@@ -1,0 +1,21 @@
+{
+  "name": "@Hi/Button",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "jiangce <5t4r3e2w1q>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "src/Button.js",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/Button.test.js"
+  },
+  "dependencies": {
+  }
+}
