@@ -287,8 +287,8 @@ module.exports = {
   ○ release: 发布新版本
   ○ workflow: 工作流相关文件修改
 ● scope: commit 影响的范围, 比如: route, component, utils, build…
-● subject: commit 的概述
-● body: commit 具体修改内容, 可以分为多行.（必填）
+● subject: commit 的概述（必填）
+● body: commit 具体修改内容, 可以分为多行.
 ● footer: 一些备注, 通常是 BREAKING CHANGE 或修复的 bug 的链接.
 ```
 Commitlint就是对开发提交功能时按照commit规则对commit内容校验。commitlint.config.js配置Commitlint规则如下：
