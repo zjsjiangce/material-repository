@@ -15,14 +15,14 @@
       "eslint --fix",
       "git add"
     ],
-    "src/**/*.{vue,htm,html,css,sss,less,scss,sass}":[
+    "src/**/*.{vue,htm,html,css,sss,less,scss,sass}": [
       "stylelint --fix",
       "git add"
     ]
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "./node_modules/cz-customizable"
     }
   },
   "scripts": {
@@ -45,8 +45,11 @@
     "babel-loader": "^8.0.1",
     "babel-preset-latest": "^6.24.1",
     "clean-webpack-plugin": "^4.0.0",
+    "commitlint-config-cz": "^0.13.3",
+    "commitlint-config-gitmoji": "^2.3.1",
     "css-loader": "^6.7.3",
     "cz-conventional-changelog": "^3.3.0",
+    "cz-customizable": "^7.0.0",
     "eslint": "^8.35.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
@@ -80,7 +83,7 @@
     "core-js": "^2.6.12",
     "element-ui": "^2.15.13",
     "vue": "2.7.14",
-    "vuepress-plugin-demo-container": "^0.2.0",
-    "vuepress": "^1.9.8"
+    "vuepress": "^1.9.8",
+    "vuepress-plugin-demo-container": "^0.2.0"
   }
 }
