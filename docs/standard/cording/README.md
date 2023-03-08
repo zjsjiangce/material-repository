@@ -391,7 +391,7 @@ body{
     // bad  new object：
     let arr = new Array(3)
     arr[0] = 12
-    arr[1] = 2
+    arr[1] = 23
     arr[2] = 3
     
     // good 字面量方式：
