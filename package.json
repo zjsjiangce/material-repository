@@ -4,20 +4,14 @@
   "workspaces": [
     "packages/*"
   ],
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "lint-staged"
-    }
-  },
+
   "lint-staged": {
     "src/**/*.{vue,js,jsx,ts,tsx}": [
-      "eslint --fix",
-      "git add"
+      "eslint --fix"
+      
     ],
     "src/**/*.{vue,htm,html,css,sss,less,scss,sass}": [
-      "stylelint --fix",
-      "git add"
+      "stylelint --fix"
     ]
   },
   "config": {
@@ -30,7 +24,7 @@
     "docs:build": "vuepress build docs",
     "build": "node scripts/build.js",
     "hyt": "node scripts/test.js",
-    "lint:ls-lint": "ls-lint",
+    "lint": "lint-staged",
     "commit": "git add . && git-cz"
   },
   "devDependencies": {
@@ -54,7 +48,7 @@
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-vue": "^9.9.0",
-    "husky": "^4.2.5",
+    "husky": "^7.0.4",
     "jest": "^29.4.3",
     "jsdom": "^21.1.0",
     "jsdom-global": "^3.0.2",
