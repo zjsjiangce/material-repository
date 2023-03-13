@@ -40,7 +40,7 @@ module.exports = {
         ],
         sidebar: {
           '/materiel/':[
-            ['','介绍'],
+            ['','简介'],
             {
               title: '组件',
               collapsable: true,
