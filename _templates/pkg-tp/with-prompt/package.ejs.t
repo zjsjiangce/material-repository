@@ -2,7 +2,7 @@
 to: packages/<%=folder%>/package.json
 ---
 {
-    "name": "@Hi-<%=business%>/<%=name%>",
+    "name": "@hi-<%=business%>/<%=name%>",
     "version": "1.0.0",
     "private": true,
     "description": "<%=description%>",
