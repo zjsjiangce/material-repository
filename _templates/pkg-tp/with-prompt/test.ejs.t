@@ -1,11 +1,11 @@
 ---
-to: packages/<%= folder %>/__tests__/<%= name %>.test.js
+to: packages/<%= folder %>/__tests__/<%= folder %>.test.js
 
 ---
 'use strict';
 
-const <%= name %> = import('../src');
+const <%= folder %> = import('../src');
 const assert = require('assert').strict;
 
-assert.strictEqual(<%= name %>.name, <%= name %>);
-console.info("<%= name %> tests passed");
+assert.strictEqual(<%= folder %>.name, <%= folder %>);
+console.info("<%= folder %> tests passed");

@@ -5,7 +5,7 @@
 <script>
 
 export default {
-  name: "Button",
+  name: "CW_Button",
   components:{},
   props:{
 

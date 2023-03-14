@@ -1,8 +1,8 @@
 ---
-to: packages/<%=name%>/README.md
+to: packages/<%=folder%>/README.md
 ---
 
-# `<%=name%>`
+# `<%=folder%>`
 
 > <%=description%>
 

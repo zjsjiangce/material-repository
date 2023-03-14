@@ -1,5 +1,5 @@
 ---
-to: packages/<%= folder %>/src/<%= name %>.vue
+to: packages/<%= folder %>/src/<%= folder %>.vue
 
 ---
 <template>
@@ -11,7 +11,7 @@ to: packages/<%= folder %>/src/<%= name %>.vue
 <script>
 
 export default {
-  name: "<%= name %>",
+  name: "<%= folder %>",
   components:{},
   props:{
 

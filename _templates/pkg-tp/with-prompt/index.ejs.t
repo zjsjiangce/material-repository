@@ -2,12 +2,12 @@
 to: packages/<%= folder %>/src/index.js
 
 ---
-import <%= name %> from './src/<%= name %>.vue';
+import <%= folder %> from './src/<%= folder %>.vue';
 import { App } from 'vue'
 
-<%= name %>.install = ( App) => {
-    App.component(<%= name %>.name, <%= name %>)
+<%= folder %>.install = ( App) => {
+    App.component(<%= folder %>.name, <%= folder %>)
 }
 
 
-export default <%= name %>;
+export default <%= folder %>;
