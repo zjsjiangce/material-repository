@@ -10,11 +10,14 @@
     "src": "src",
     "test": "__tests__"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "src"
   ],
   "scripts": {
     "test": "node ./__tests__/Button.test.js"
   },
-  "gitHead": "41674d297c2c43e9d51ec8f4598f84e402ed1505"
+  "gitHead": "7579320358fc3a4bd8c3ccb350f0bcda9f31925e"
 }
