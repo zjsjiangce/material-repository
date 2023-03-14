@@ -4,7 +4,9 @@
   "workspaces": [
     "packages/*"
   ],
-
+  "publishConfig": {
+    "access": "public"
+  },
   "lint-staged": {
     "src/**/*.{vue,js,jsx,ts,tsx}": [
       "eslint --fix"

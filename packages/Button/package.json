@@ -15,5 +15,6 @@
   ],
   "scripts": {
     "test": "node ./__tests__/Button.test.js"
-  }
+  },
+  "gitHead": "41674d297c2c43e9d51ec8f4598f84e402ed1505"
 }
