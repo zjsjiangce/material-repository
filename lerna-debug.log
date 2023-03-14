@@ -1,0 +1,16 @@
+32 error Error: Command failed with exit code 1: git commit -F /private/var/folders/tj/8qm62tnd3xq4jp3pjz1bp52m0000gn/T/060d4fb4-3209-430a-9e58-07f1cdfc1e95/lerna-commit.txt
+32 error → No staged files match any configured task.
+32 error ⧗   input: Publish
+32 error
+32 error  - @Hi-CAIWU/Button@1.0.2
+32 error ✖   subject may not be empty [subject-empty]
+32 error ✖   type may not be empty [type-empty]
+32 error
+32 error ✖   found 2 problems, 0 warnings
+32 error ⓘ   Get help: https://github.com/conventional-changelog/commitlint/#what-is-commitlint
+32 error
+32 error husky - commit-msg hook exited with code 1 (error)
+32 error     at makeError (/Users/jiangce/Documents/study/components-library/my-components/node_modules/execa/lib/error.js:60:11)
+32 error     at handlePromise (/Users/jiangce/Documents/study/components-library/my-components/node_modules/execa/index.js:118:26)
+32 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+32 error     at async Promise.all (index 0)
